@@ -21,8 +21,13 @@
 
 ## 4.Routing
   - Router matches the request to a `route/controller`. - Executes any route-specific middleware.
-  - If the request passes through all of the matched route's assigned middleware, the route or controller method will be executed and the response returned by the route or controller method will be sent back through the route's chain of middleware.
+  - If the request passes through all of the matched route's assigned middleware, the route or controller method will be executed and the response returned by the      route or controller method will be sent back through the route's chain of middleware.
   - Request goes through a stack of middleware (global or route-specific). - Middleware handles things like (sessions, CSRF, authentication, maintenance mode, etc)
 
 ## 5.Response Flow
   - Once the controller returns a response, it flows back through  middleware. - Then the `HTTP kernel's handle` method returns the response object to the `handleRequest` of the application instance, and this method calls the `send` method on the returned response to sends the response content to the user's web browser.
+
+---
+
+## The following imgae illustrates the Laravel Request Lifecycle:
+![Laravel Request Lifecycle](RequestLifecycle.png)
