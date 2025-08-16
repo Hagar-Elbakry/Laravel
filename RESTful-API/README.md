@@ -33,6 +33,7 @@ Think of an **API like a box** that only accepts certain shapes:
 - If you send one of these correct shapes, the box accepts it and gives you a proper result (response).  
 - If you send the wrong shape, the box **rejects it** and throws an **error**.  
 
+![API Analogy](API_Analogy.PNG)
 ---
 
 ### 🔑 In short:  
