@@ -5,6 +5,7 @@ The goal is to deeply understand the Laravel framework while building a useful p
 ## Table of Contents
 
 - [Request Lifecycle](RequestLifcycle/RequestLifecycle.md)
+- [RESTful API](RESTful-API/README.md)
 
 ---
 This repository will grow over time as I continue learning Laravel.
